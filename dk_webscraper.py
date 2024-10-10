@@ -156,7 +156,7 @@ async def scrape_dk():
 
 if __name__ == "__main__":
     start_time = time.time()
-    
+
     asyncio.run(scrape_dk())
 
     # Calculate and display runtime
