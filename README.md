@@ -9,6 +9,7 @@ It also includes a script that processes the JSON files from the web scrapers to
 ### [09/09/2024] - Added scraping for football, basketball, baseball, and mma.
 - Added `dk_game_odds_20240909_010358.json` as example of the JSON output from the latest update.
 - Added `dk_webscraper.py` as initial DK web scraper with functionality for sports that follow the spread/total/moneyline table format.
+- Updated `dk_webscraper.py` for asynchronicity, improving runtime by 85%.
 
 ### [09/08/2024] - Project initialization
 - Added `dk_nfl_webscraper.py` as baseline web scraper for DraftKings.
